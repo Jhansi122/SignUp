@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.org.signup.maven.SignupTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.151 s <<< FAILURE! - in com.org.signup.maven.SignupTest
+ParentWindowClick(com.org.signup.maven.SignupTest)  Time elapsed: 0.026 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'JHANSI-PC', ip: '192.168.2.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3976, moz:profile: C:\Users\JHANSI\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba0013b5-84bb-4ec7-8564-2aa9d9f1c211
+	at com.org.signup.maven.SignupTest.ParentWindowClick(SignupTest.java:126)
+
